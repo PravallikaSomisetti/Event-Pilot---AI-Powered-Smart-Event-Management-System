@@ -1,13 +1,13 @@
-# 🎉 EventPilot
+#  EventPilot
 ### AI-Powered Event Management System
 
-## 📌 Project Overview
+##  Project Overview
 
 EventPilot is a full-stack web application that simplifies event planning, management, registration, attendance tracking, analytics, and feedback collection. It integrates AI-powered insights to help organizers make data-driven decisions.
 
 ---
 
-# 📖 Problem Statement
+#  Problem Statement
 
 Traditional event management systems often suffer from:
 
@@ -21,7 +21,7 @@ These challenges make organizing and monitoring events time-consuming and error-
 
 ---
 
-# 💡 Solution
+#  Solution
 
 EventPilot provides an all-in-one platform where organizers can:
 
@@ -34,7 +34,7 @@ EventPilot provides an all-in-one platform where organizers can:
 
 ---
 
-# 🚀 Key Features
+#  Key Features
 
 ### Authentication
 - User Registration
@@ -65,7 +65,7 @@ EventPilot provides an all-in-one platform where organizers can:
 
 ---
 
-# 🏗️ System Architecture
+#  System Architecture
 
 ```text
 React Frontend
@@ -82,7 +82,7 @@ Machine Learning Models
 
 ---
 
-# ⚙️ Technology Stack
+#  Technology Stack
 
 ## Frontend
 
@@ -111,7 +111,7 @@ Machine Learning Models
 
 ---
 
-# 📂 Project Structure
+#  Project Structure
 
 ```
 event_pilot/
@@ -131,7 +131,7 @@ event_pilot/
 
 ---
 
-# 🔄 Workflow
+#  Workflow
 
 1. User registers and logs in.
 2. Organizer creates an event.
@@ -143,7 +143,7 @@ event_pilot/
 
 ---
 
-# 🖥️ Screenshots
+#  Screenshots
 
 ## Home Page
 
@@ -181,7 +181,7 @@ _Add screenshot here_
 
 ---
 
-# 📋 Requirements
+#  Requirements
 
 ## Frontend
 
@@ -195,7 +195,7 @@ _Add screenshot here_
 
 ---
 
-# 🔧 Installation
+#  Installation
 
 ## Clone Repository
 
@@ -221,7 +221,7 @@ python -m uvicorn app.main:app --reload
 
 ---
 
-# 📡 API Documentation
+#  API Documentation
 
 After running the backend:
 
@@ -231,7 +231,7 @@ http://localhost:8000/docs
 
 ---
 
-# 👨‍💻 Future Enhancements
+#  Future Enhancements
 
 - Email Notifications
 - Payment Gateway
@@ -241,12 +241,12 @@ http://localhost:8000/docs
 
 ---
 
-# 📄 License
+#  License
 
 This project was developed for academic purposes.
 
 ---
 
-# 👩‍🎓 Author
+#  Author
 
 **Pravallika**
