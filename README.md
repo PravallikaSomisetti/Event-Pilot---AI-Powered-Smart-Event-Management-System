@@ -147,7 +147,8 @@ event_pilot/
 
 ## Home Page
 
-_Add screenshot here_
+<img width="1888" height="911" alt="Screenshot 2026-07-06 092905" src="https://github.com/user-attachments/assets/f206116b-9dfc-48d2-88c4-ef8378e80436" />
+
 
 ---
 
