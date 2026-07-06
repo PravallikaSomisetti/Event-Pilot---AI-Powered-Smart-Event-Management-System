@@ -144,6 +144,7 @@ event_pilot/
 ---
 
 #  Screenshots
+## Participant Panel
 
 ## Home Page
 
@@ -152,33 +153,45 @@ event_pilot/
 
 ---
 
-## Login Page
+## Create Account
 
-_Add screenshot here_
+<img width="1898" height="913" alt="Screenshot 2026-07-06 093010" src="https://github.com/user-attachments/assets/da88be7d-6de1-4564-bf72-a00e90105ae2" />
+
 
 ---
 
-## Registration Page
+## Login Page
 
-_Add screenshot here_
+<img width="1913" height="906" alt="Screenshot 2026-07-06 093259" src="https://github.com/user-attachments/assets/cf7d4d89-2c99-4197-9f6b-f844e3f2b687" />
+
+
+---
+
+## My Profile
+
+<img width="1917" height="905" alt="Screenshot 2026-07-06 093228" src="https://github.com/user-attachments/assets/53cb8438-4967-4340-98f4-64a6c09152ea" />
+
 
 ---
 
 ## Dashboard
 
-_Add screenshot here_
+<img width="1912" height="892" alt="Screenshot 2026-07-06 093130" src="https://github.com/user-attachments/assets/49d3f78f-b9b8-4508-9036-e7bdb0572512" />
+
 
 ---
 
 ## Event Management
 
-_Add screenshot here_
+<img width="1886" height="912" alt="Screenshot 2026-07-06 093100" src="https://github.com/user-attachments/assets/8df95f6a-428f-43e8-b630-80ca608fcaaf" />
+
 
 ---
 
 ## Analytics
 
-_Add screenshot here_
+<img width="1917" height="912" alt="Screenshot 2026-07-06 093203" src="https://github.com/user-attachments/assets/7da28cd5-f782-4dda-b818-a39d1456e5b7" />
+
 
 ---
 
