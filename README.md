@@ -198,13 +198,15 @@ event_pilot/
 # Organizer Panel
 ## Event Management
 
-<img width="1917" height="912" alt="Screenshot 2026-07-06 093203" src="https://github.com/user-attachments/assets/55932856-7e78-4912-ab46-14e274fcd9a0" />
+<img width="1892" height="912" alt="Screenshot 2026-07-06 093424" src="https://github.com/user-attachments/assets/72f985e5-19c2-457f-a772-b02764cba823" />
+
 
 ---
 
 ## Dashboard
 
-<img width="1917" height="912" alt="Screenshot 2026-07-06 093203" src="https://github.com/user-attachments/assets/ce1fbf69-caf9-41d9-9805-cc518bcbc69d" />
+<img width="1901" height="902" alt="Screenshot 2026-07-06 093321" src="https://github.com/user-attachments/assets/8b45897f-36dd-452f-8df2-6cb0d9dffe79" />
+
 
 ---
 
