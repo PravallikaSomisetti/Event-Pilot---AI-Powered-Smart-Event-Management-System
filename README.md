@@ -200,7 +200,7 @@ _Add screenshot here_
 ## Clone Repository
 
 ```bash
-git clone https://github.com/your-username/event-pilot.git
+git clone https://github.com/PravallikaSomisetti/Event-Pilot---AI-Powered-Smart-Event-Management-System.git
 ```
 
 ## Frontend
