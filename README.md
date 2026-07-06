@@ -1,107 +1,252 @@
-# EventPilot: Smart Event Management System
+# 🎉 EventPilot
+### AI-Powered Event Management System
 
-**EventPilot** is a production-ready, AI-powered Smart Event Management platform designed for Admins, Event Organizers, and Participants. It incorporates secure JWT authentication, real-time check-ins using unique scanned QR codes, visual charts, automated PDF/Excel reports, drag-and-drop calendars, and intelligent machine learning models.
+## 📌 Project Overview
 
----
-
-## Key Features
-
-1. **User Authentication & Role-Based Access Controls**:
-   - Secure login, signup, forgot password, and reset password.
-   - Separate dashboards for **Admin**, **Event Organizer**, and **Participant**.
-2. **AI Predictions & Analytics**:
-   - **Attendance Predictor**: Scikit-Learn Random Forest Regressor trained on historical records forecasts attendance % based on category, time, registrations, and weekday weight.
-   - **Feedback Sentiments**: Real-time NLP classifier categorizes reviews into Positive, Neutral, or Negative, extracting keywords and generating recommendations.
-   - **Recharts Panels**: Dynamic charts showing platforms registration trends, attendance rates, category metrics, and satisfaction levels.
-3. **QR Check-in & Gate Scanner**:
-   - Unique QR ticket generated upon user event registration.
-   - Built-in camera scanner scans passes, matches tickets, logs timestamps, and blocks duplicates automatically.
-4. **Automated Document Exporter**:
-   - Download fully formatted Excel spreadsheets (`.xlsx`) or professional PDFs listing check-in times and feedbacks.
-5. **Drag-and-Drop Scheduling Calendar**:
-   - Monthly grid board allowing organizers to drag-and-drop event tiles to update dates instantly.
+EventPilot is a full-stack web application that simplifies event planning, management, registration, attendance tracking, analytics, and feedback collection. It integrates AI-powered insights to help organizers make data-driven decisions.
 
 ---
 
-## Technology Stack
+# 📖 Problem Statement
 
-* **Frontend**: React.js, Tailwind CSS (v4), React Router (v7), Axios, Recharts, Framer Motion, react-qr-code, html5-qrcode.
-* **Backend**: FastAPI, PostgreSQL, SQLAlchemy, JWT Authentication, Passlib (bcrypt).
-* **AI/ML**: Scikit-learn, Pandas, custom NLP keyword and suggestion miners.
-* **Deployment**: Docker, Docker Compose.
+Traditional event management systems often suffer from:
+
+- Manual registration processes
+- Poor attendance tracking
+- Lack of centralized event management
+- Limited analytics
+- Inefficient feedback analysis
+
+These challenges make organizing and monitoring events time-consuming and error-prone.
 
 ---
 
-## Folder Structure
+# 💡 Solution
+
+EventPilot provides an all-in-one platform where organizers can:
+
+- Create and manage events
+- Register participants
+- Track attendance
+- Generate reports
+- Analyze participant feedback
+- Predict event participation using AI
+
+---
+
+# 🚀 Key Features
+
+### Authentication
+- User Registration
+- User Login
+- JWT Authentication
+- Password Reset
+
+### Event Management
+- Create Events
+- Edit Events
+- Delete Events
+- Publish Events
+- Cancel Events
+
+### Participant Features
+- Event Registration
+- View Registered Events
+- QR Code Attendance
+
+### AI Features
+- Attendance Prediction
+- Feedback Sentiment Analysis
+
+### Reports
+- Attendance Reports
+- Feedback Reports
+- Analytics Reports
+
+---
+
+# 🏗️ System Architecture
+
+```text
+React Frontend
+        │
+        ▼
+ FastAPI Backend
+        │
+        ▼
+SQLite Database
+        │
+        ▼
+Machine Learning Models
+```
+
+---
+
+# ⚙️ Technology Stack
+
+## Frontend
+
+- React.js
+- React Router
+- React Hook Form
+- Axios
+- React Toastify
+
+## Backend
+
+- FastAPI
+- SQLAlchemy
+- JWT Authentication
+- Passlib
+
+## Database
+
+- SQLite
+
+## AI / ML
+
+- Scikit-Learn
+- Pandas
+- NLTK
+
+---
+
+# 📂 Project Structure
 
 ```
 event_pilot/
+│
+├── frontend/
 ├── backend/
 │   ├── app/
-│   │   ├── ai/             # Predictor & Sentiment models
-│   │   ├── core/           # Security, OAuth2, JWT configs
-│   │   ├── database/       # SQLAlchemy engine & DB seeder
-│   │   ├── models/         # DB table models
-│   │   ├── routes/         # REST API endpoints
-│   │   ├── schemas/        # Pydantic validation schemas
-│   │   └── main.py         # FastAPI main script
-│   ├── requirements.txt
-│   └── Dockerfile
-├── frontend/
-│   ├── src/
-│   │   ├── components/     # Layout, Sidebar, TopNavbar, Calendar
-│   │   ├── pages/          # Landing page & Dashboards (Unified, Admin, Org, Part)
-│   │   ├── services/       # Axios API integration hook client
-│   │   ├── App.jsx         # Routes mapping
-│   │   └── main.jsx
-│   ├── package.json
-│   └── Dockerfile
-├── docker-compose.yml
-└── README.md
+│   ├── database/
+│   ├── models/
+│   ├── routes/
+│   └── schemas/
+│
+├── streamlit_app/
+├── README.md
+└── docker-compose.yml
 ```
 
 ---
 
-## Setup & Running Instructions
+# 🔄 Workflow
 
-### Method 1: Using Docker Compose (Recommended)
-Launch the database, FastAPI backend, and React frontend concurrently:
+1. User registers and logs in.
+2. Organizer creates an event.
+3. Participants register for the event.
+4. Attendance is marked.
+5. Feedback is collected.
+6. AI analyzes data.
+7. Reports are generated.
+
+---
+
+# 🖥️ Screenshots
+
+## Home Page
+
+_Add screenshot here_
+
+---
+
+## Login Page
+
+_Add screenshot here_
+
+---
+
+## Registration Page
+
+_Add screenshot here_
+
+---
+
+## Dashboard
+
+_Add screenshot here_
+
+---
+
+## Event Management
+
+_Add screenshot here_
+
+---
+
+## Analytics
+
+_Add screenshot here_
+
+---
+
+# 📋 Requirements
+
+## Frontend
+
+- Node.js
+- npm
+
+## Backend
+
+- Python 3.11+
+- pip
+
+---
+
+# 🔧 Installation
+
+## Clone Repository
+
 ```bash
-docker-compose up --build
+git clone https://github.com/your-username/event-pilot.git
 ```
-- Frontend client: [http://localhost:80](http://localhost:80)
-- Backend APIs: [http://localhost:8000](http://localhost:8000)
-- API Docs: [http://localhost:8000/docs](http://localhost:8000/docs)
 
-### Method 2: Running Locally
+## Frontend
 
-#### Step 1: Run Backend
-1. Navigate to `backend/`
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Boot backend server:
-   ```bash
-   uvicorn app.main:app --reload
-   ```
-   *(Note: The database tables and seed dataset will automatically initialize in a local `eventpilot.db` SQLite file if PostgreSQL is not active!)*
+```bash
+cd frontend
+npm install
+npm run dev
+```
 
-#### Step 2: Run Frontend
-1. Navigate to `frontend/`
-2. Install packages:
-   ```bash
-   npm install
-   ```
-3. Launch development server:
-   ```bash
-   npm run dev
-   ```
+## Backend
+
+```bash
+cd backend
+pip install -r requirements.txt
+python -m uvicorn app.main:app --reload
+```
 
 ---
 
-## Credentials for Testing
-The seeder creates three standard test accounts for instant dashboard exploration:
-- **Admin**: `admin@eventpilot.com` / `admin123`
-- **Organizer**: `organizer@eventpilot.com` / `organizer123`
-- **Participant**: `participant@eventpilot.com` / `participant123`
+# 📡 API Documentation
+
+After running the backend:
+
+```
+http://localhost:8000/docs
+```
+
+---
+
+# 👨‍💻 Future Enhancements
+
+- Email Notifications
+- Payment Gateway
+- Mobile Application
+- AI Chat Assistant
+- Calendar Integration
+
+---
+
+# 📄 License
+
+This project was developed for academic purposes.
+
+---
+
+# 👩‍🎓 Author
+
+**Pravallika**
