@@ -144,7 +144,7 @@ event_pilot/
 ---
 
 #  Screenshots
-## Participant Panel
+# Participant Panel
 
 ## Home Page
 
@@ -192,6 +192,31 @@ event_pilot/
 
 <img width="1917" height="912" alt="Screenshot 2026-07-06 093203" src="https://github.com/user-attachments/assets/7da28cd5-f782-4dda-b818-a39d1456e5b7" />
 
+
+---
+
+# Organizer Panel
+## Event Management
+
+<img width="1917" height="912" alt="Screenshot 2026-07-06 093203" src="https://github.com/user-attachments/assets/55932856-7e78-4912-ab46-14e274fcd9a0" />
+
+---
+
+## Dashboard
+
+<img width="1917" height="912" alt="Screenshot 2026-07-06 093203" src="https://github.com/user-attachments/assets/ce1fbf69-caf9-41d9-9805-cc518bcbc69d" />
+
+---
+
+## QR-Check in Scanner
+
+<img width="1918" height="911" alt="Screenshot 2026-07-06 093448" src="https://github.com/user-attachments/assets/8f7f7283-5085-467b-8c1c-5e8faa6e0b34" />
+
+---
+
+## Analytics Hub
+
+<img width="1896" height="906" alt="Screenshot 2026-07-06 093526" src="https://github.com/user-attachments/assets/1b8f6850-aa7e-4f66-a605-6056f8acb372" />
 
 ---
 
